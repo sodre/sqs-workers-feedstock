@@ -1,5 +1,5 @@
 {% set name = "sqs-workers" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f0f1487f07dbcac62280d4e8c1d4b52f95958f2a3a79abf2d011ca22f00babf2
+  sha256: 305c6cf5c201cb849e11e38001958e82089d7bb62d74171761d0820ac9aa8a7b
   patches:
     - remove-requirements.patch
 
